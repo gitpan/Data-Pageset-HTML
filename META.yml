@@ -1,0 +1,21 @@
+---
+name: Data-Pageset-HTML
+version: 0.11
+author:
+  - 'Mark Grimes, E<lt>mgrimes@cpan.orgE<gt>'
+abstract: |-
+  Subclass of C<Data::Pageset> that generates html, text,
+  etc. for page navigation
+license: perl
+resources:
+  license: http://dev.perl.org/licenses/
+requires:
+  Data::Pageset: 1.04
+provides:
+  Data::Pageset::HTML:
+    file: lib/Data/Pageset/HTML.pm
+    version: 0.11
+generated_by: Module::Build version 0.2808
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.2.html
+  version: 1.2
